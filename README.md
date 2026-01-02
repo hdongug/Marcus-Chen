@@ -169,7 +169,6 @@ Marcus-Chen/
 **Marcus Chen** - 풀스택 개발자
 
 - GitHub: [@hdongug](https://github.com/hdongug)
-- 이메일: marcus@example.com
 
 ## 🤝 기여
 
