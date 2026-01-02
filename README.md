@@ -1,193 +1,192 @@
-# Marcus Chen - Full Stack Developer Portfolio
+# Marcus Chen - 풀스택 개발자 포트폴리오
 
-A modern, minimalist portfolio website showcasing full-stack development projects, technical skills, and open-source contributions. Built with React, TypeScript, and Tailwind CSS.
+풀스택 개발 프로젝트, 기술 스킬, 오픈소스 기여를 보여주는 현대적인 포트폴리오 웹사이트입니다. React, TypeScript, Tailwind CSS로 제작되었습니다.
 
-## 🎨 Design Philosophy
+## 🎨 디자인 철학
 
-**Tech Minimalism + Neon Accent** - A sophisticated dark-mode interface combining extreme simplicity with technical elegance. The design emphasizes clean typography, strategic whitespace, and neon green accents to create a premium, developer-friendly aesthetic.
+**테크 미니멀리즘 + 네온 악센트** - 극도의 단순함과 기술적 우아함을 결합한 세련된 다크 모드 인터페이스입니다. 깔끔한 타이포그래피, 전략적인 공간 활용, 네온 그린 악센트로 프리미엄한 개발자 친화적 경험을 제공합니다.
 
-### Color Palette
-- **Background**: Deep Black (`#0a0a0a`)
-- **Text**: Light Slate Gray (`#e8e8e8`)
-- **Accent**: Neon Green (`#00ff41`)
-- **Secondary**: Slate Gray (`#64748b`)
+### 색상 팔레트
+- **배경**: 진한 검정 (`#0a0a0a`)
+- **텍스트**: 밝은 슬레이트 그레이 (`#e8e8e8`)
+- **악센트**: 네온 그린 (`#00ff41`)
+- **보조 색상**: 슬레이트 그레이 (`#64748b`)
 
-### Typography
-- **Headers**: Space Mono (Bold) - Technical and impactful
-- **Body**: Inter (Regular, Medium) - Clean and readable
-- **Code**: JetBrains Mono (Regular) - Developer-friendly
+### 타이포그래피
+- **제목**: Space Mono (Bold) - 기술적이고 강렬함
+- **본문**: Inter (Regular, Medium) - 깔끔하고 가독성 높음
+- **코드**: JetBrains Mono (Regular) - 개발자 친화적
 
-## ✨ Features
+## ✨ 주요 기능
 
-### Hero Section
-- Eye-catching introduction with developer name and title
-- Quick tech stack overview with interactive badges
-- Call-to-action buttons (View Work, Download Resume)
-- Social media links (GitHub, LinkedIn, Email)
-- Animated background with circuit-board aesthetic
+### 히어로 섹션
+- 개발자 이름과 직급 소개
+- 기술 스택 빠른 보기 (인터랙티브 배지)
+- 행동 유도 버튼 (포트폴리오 보기, 이력서 다운로드)
+- 소셜 미디어 링크 (GitHub, LinkedIn, 이메일)
+- 회로 기판 스타일의 애니메이션 배경
 
-### Featured Projects
-- Responsive grid layout showcasing 4 featured projects
-- Project cards with hover effects and neon glow
-- Technology tags for each project
-- Links to GitHub repositories and live demos
-- Smooth card elevation animation on hover
+### 프로젝트 그리드
+- 4개의 주요 프로젝트 반응형 그리드 레이아웃
+- 호버 시 카드 상승 애니메이션과 네온 글로우 효과
+- 각 프로젝트별 기술 스택 태그
+- GitHub 저장소 및 라이브 데모 링크
 
-### Technical Skills
-- Organized skill matrix by category (Frontend, Backend, Database, DevOps)
-- Visual hierarchy with neon green borders
-- Icon indicators for each skill category
-- Hover effects for enhanced interactivity
+### 기술 스킬 매트릭스
+- 카테고리별 정렬된 기술 스택 (프론트엔드, 백엔드, 데이터베이스, DevOps)
+- 네온 그린 보더를 활용한 시각적 계층 구조
+- 각 카테고리별 아이콘 표시
+- 호버 효과를 통한 상호작용성 강화
 
-### Blog Section
-- Latest articles showcase with publication dates
-- Card-based layout with consistent styling
-- Quick preview of article content
-- Links to full articles
+### 블로그 섹션
+- 최신 기술 블로그 글 소개
+- 발행 날짜와 함께 표시되는 카드 레이아웃
+- 글의 간단한 미리보기
+- 전체 글로 이동하는 링크
 
-### Contact Form
-- Professional contact form with validation
-- Name, email, and message fields
-- Responsive design for all screen sizes
-- Form submission handling
+### 연락처 폼
+- 전문적인 연락처 양식
+- 이름, 이메일, 메시지 입력 필드
+- 모든 화면 크기에 대응하는 반응형 디자인
+- 폼 제출 처리 기능
 
-### Footer
-- Copyright information
-- Quick links (Privacy, Terms, Sitemap)
-- Consistent branding throughout
+### 푸터
+- 저작권 정보
+- 빠른 링크 (개인정보보호, 이용약관, 사이트맵)
+- 일관된 브랜딩
 
-## 🚀 Getting Started
+## 🚀 시작하기
 
-### Prerequisites
-- Node.js 18+
-- pnpm (recommended) or npm
+### 필수 요구사항
+- Node.js 18 이상
+- pnpm (권장) 또는 npm
 
-### Installation
+### 설치
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/marcus_portfolio.git
-cd marcus_portfolio
+# 저장소 클론
+git clone https://github.com/hdongug/Marcus-Chen.git
+cd Marcus-Chen
 
-# Install dependencies
+# 의존성 설치
 pnpm install
 
-# Start development server
+# 개발 서버 시작
 pnpm dev
 ```
 
-The site will be available at `http://localhost:3000`
+웹사이트는 `http://localhost:3000`에서 확인할 수 있습니다.
 
-### Build for Production
+### 프로덕션 빌드
 
 ```bash
 pnpm build
 pnpm preview
 ```
 
-## 📁 Project Structure
+## 📁 프로젝트 구조
 
 ```
-marcus_portfolio/
+Marcus-Chen/
 ├── client/
 │   ├── public/
-│   │   └── images/          # Generated hero and pattern images
+│   │   └── images/          # 생성된 히어로 및 패턴 이미지
 │   ├── src/
-│   │   ├── components/      # Reusable UI components
+│   │   ├── components/      # 재사용 가능한 UI 컴포넌트
 │   │   ├── pages/
-│   │   │   └── Home.tsx     # Main portfolio page
-│   │   ├── App.tsx          # App routing and theme setup
-│   │   ├── index.css        # Global styles and design tokens
-│   │   └── main.tsx         # React entry point
-│   └── index.html           # HTML template
-├── server/                  # Static server configuration
+│   │   │   └── Home.tsx     # 메인 포트폴리오 페이지
+│   │   ├── App.tsx          # 앱 라우팅 및 테마 설정
+│   │   ├── index.css        # 글로벌 스타일 및 디자인 토큰
+│   │   └── main.tsx         # React 진입점
+│   └── index.html           # HTML 템플릿
+├── server/                  # 정적 서버 설정
 ├── package.json
+├── ideas.md                 # 디자인 철학 및 아이디어 문서
 └── README.md
 ```
 
-## 🎯 Key Technologies
+## 🎯 기술 스택
 
-- **React 19** - Modern UI framework
-- **TypeScript** - Type-safe development
-- **Tailwind CSS 4** - Utility-first styling
-- **Vite** - Fast build tool and dev server
-- **shadcn/ui** - High-quality UI components
-- **Lucide React** - Beautiful icon library
-- **Wouter** - Lightweight client-side routing
+- **React 19** - 현대적인 UI 프레임워크
+- **TypeScript** - 타입 안전 개발
+- **Tailwind CSS 4** - 유틸리티 기반 스타일링
+- **Vite** - 빠른 빌드 도구 및 개발 서버
+- **shadcn/ui** - 고품질 UI 컴포넌트
+- **Lucide React** - 아름다운 아이콘 라이브러리
+- **Wouter** - 경량 클라이언트 사이드 라우팅
 
-## 🎨 Customization
+## 🎨 커스터마이징
 
-### Changing Colors
-Edit the CSS variables in `client/src/index.css`:
+### 색상 변경
+`client/src/index.css`의 CSS 변수를 편집하세요:
 
 ```css
 :root {
-  --primary: #00ff41;           /* Neon green */
-  --background: #0a0a0a;        /* Deep black */
-  --foreground: #e8e8e8;        /* Light gray */
-  /* ... other variables */
+  --primary: #00ff41;           /* 네온 그린 */
+  --background: #0a0a0a;        /* 진한 검정 */
+  --foreground: #e8e8e8;        /* 밝은 회색 */
+  /* ... 기타 변수 */
 }
 ```
 
-### Updating Projects
-Modify the `projects` array in `client/src/pages/Home.tsx` with your own projects.
+### 프로젝트 업데이트
+`client/src/pages/Home.tsx`의 `projects` 배열을 수정하여 자신의 프로젝트를 추가하세요.
 
-### Updating Skills
-Edit the `skills` array in `client/src/pages/Home.tsx` to reflect your technical expertise.
+### 기술 스킬 업데이트
+`client/src/pages/Home.tsx`의 `skills` 배열을 편집하여 기술 스택을 반영하세요.
 
-### Updating Content
-All text content can be easily modified in the Home component. Replace placeholder text with your actual information.
+### 콘텐츠 수정
+모든 텍스트 콘텐츠는 Home 컴포넌트에서 쉽게 수정할 수 있습니다. 플레이스홀더 텍스트를 실제 정보로 교체하세요.
 
-## 🎬 Animations & Interactions
+## 🎬 애니메이션 및 상호작용
 
-- **Fade-in animations** on page load
-- **Card hover effects** with neon glow and elevation
-- **Smooth transitions** on all interactive elements
-- **Responsive design** that adapts to all screen sizes
+- **페이드 인 애니메이션** - 페이지 로드 시 요소 나타남
+- **카드 호버 효과** - 네온 글로우와 상승 애니메이션
+- **부드러운 전환** - 모든 상호작용 요소에 적용
+- **반응형 디자인** - 모든 화면 크기에 최적화
 
-## 📱 Responsive Design
+## 📱 반응형 디자인
 
-The portfolio is fully responsive and optimized for:
-- Mobile devices (320px+)
-- Tablets (768px+)
-- Desktop screens (1024px+)
+포트폴리오는 완전히 반응형이며 다음 기기에 최적화되어 있습니다:
+- 모바일 기기 (320px 이상)
+- 태블릿 (768px 이상)
+- 데스크톱 화면 (1024px 이상)
 
-## 🔍 SEO & Performance
+## 🔍 SEO 및 성능
 
-- Semantic HTML structure
-- Meta tags for social sharing
-- Fast load times with Vite optimization
-- Accessible color contrast ratios
-- Keyboard navigation support
+- 의미론적 HTML 구조
+- 소셜 공유용 메타 태그
+- Vite 최적화를 통한 빠른 로드 시간
+- 접근성 있는 색상 대비 비율
+- 키보드 네비게이션 지원
 
-## 📄 License
+## 📄 라이선스
 
-This project is open source and available under the MIT License.
+이 프로젝트는 MIT 라이선스 하에 오픈소스로 제공됩니다.
 
-## 👤 Author
+## 👤 작성자
 
-**Marcus Chen** - Full Stack Developer
+**Marcus Chen** - 풀스택 개발자
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- Email: marcus@example.com
+- GitHub: [@hdongug](https://github.com/hdongug)
+- 이메일: marcus@example.com
 
-## 🤝 Contributing
+## 🤝 기여
 
-This is a personal portfolio project. However, if you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+이것은 개인 포트폴리오 프로젝트입니다. 문제를 발견하거나 개선 제안이 있으시면 이슈를 열거나 풀 리퀘스트를 제출해주세요.
 
-## 📝 Changelog
+## 📝 변경 이력
 
-### v1.0.0 (Initial Release)
-- Hero section with tech stack overview
-- Featured projects grid with live demos
-- Technical skills matrix
-- Blog section
-- Contact form
-- Responsive design
-- Dark mode with neon accents
-- Smooth animations and interactions
+### v1.0.0 (초기 릴리스)
+- 기술 스택 개요가 포함된 히어로 섹션
+- 라이브 데모 링크가 있는 프로젝트 그리드
+- 기술 스킬 매트릭스
+- 블로그 섹션
+- 연락처 폼
+- 반응형 디자인
+- 네온 악센트가 있는 다크 모드
+- 부드러운 애니메이션 및 상호작용
 
 ---
 
-**Built with ❤️ using React and Tailwind CSS**
+**❤️로 만들어진 React와 Tailwind CSS 포트폴리오**
